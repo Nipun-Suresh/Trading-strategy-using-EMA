@@ -13,7 +13,7 @@ def trend(ema,i,x):
     while(f(i-k)==x): k+=1
     return k
 
-file_name = "C:/Users/Suresh BA/Documents/ns/GOOG.csv"
+file_name = "stock.csv"
 data = pd.read_csv(file_name)
 row_name = "High"
 arr = np.array(data[row_name],dtype=float)
